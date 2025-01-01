@@ -43,4 +43,12 @@ const quoteList = [
     "Happy News is on its way."
 ];
 
-console.log(quoteList[3])
+//Get random number
+let num = Math.floor(Math.random() * 41)
+
+console.log[num]
+const randomQuote = () => {
+    console.log(quoteList[num])
+}
+
+randomQuote()
